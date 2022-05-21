@@ -1,0 +1,13 @@
+.navbar-nav a{
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-nav{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
