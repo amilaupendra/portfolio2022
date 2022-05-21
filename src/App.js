@@ -3,7 +3,6 @@ import "./Components/navbar/Topnav";
 import Topnav from "./Components/navbar/Topnav";
 import {
   BrowserRouter as Router,
-  Switch,
   Routes,
   Route,
  
@@ -25,6 +24,8 @@ function App() {
           <Route path="/works" element={<Works />}></Route>
         </Routes>
         </Router>
+
+
       </div>
     
   );
