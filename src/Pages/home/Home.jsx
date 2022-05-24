@@ -3,27 +3,32 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <div className="homediv container-fluid">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        delectus, doloribus omnis eos quia, fugiat rerum nobis soluta quam odit
-        mollitia facere culpa quas impedit debitis labore cumque dolor
-        voluptates. <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt,
-        quos alias voluptatem nulla molestias, atque minus eum, at voluptas
-        asperiores veniam rerum nam? Et fugiat cumque omnis. Incidunt, nam?
-      </p>
+    <div className="homediv container">
+      <div className="namediv"><h1 id="nameid">Amila Upendra</h1></div>
+      <div className="test container">
+      <div className="textanimation wrapper container">
+        <div className="static-txt">I'm a</div>
+        <ul className="dynamic-txts">
+          <li>
+            <span>WebDeveloper</span>
+          </li>
+          <li>
+            <span>GameDeveloper</span>
+          </li>
+          <li>
+            <span>Cricketer</span>
+          </li>
+          <li>
+            <span>Gamer</span>
+          </li>
+          <li>
+            <span>Student</span>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+      
     </div>
   );
 }

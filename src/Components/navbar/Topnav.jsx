@@ -6,9 +6,9 @@ import "./topnav.css";
 export default function Topnav() {
   return (
     <div className="headerdiv">
-      <Navbar bg="dark" variant="dark">
-        <Container fluid>
-          <Navbar.Brand href="#home">Amila Upendra</Navbar.Brand>
+      <Navbar fixed="top"  bg="dark" variant="dark">
+        <Container >
+          <Navbar.Brand  href="#home"> Amila Upendra</Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link>
               <Link to={"/"}>Home</Link>

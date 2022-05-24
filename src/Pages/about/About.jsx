@@ -3,8 +3,12 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="aboutdiv container-fluid">
+    <div className="container-fluid aboutdiv">
       <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, incidunt
+        culpa nesciunt, adipisci quo asperiores exercitationem non eaque,
+        expedita quibusdam quam voluptate iste ullam! Qui vel natus quos magni
+        reprehenderit!Lorem
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, incidunt
         culpa nesciunt, adipisci quo asperiores exercitationem non eaque,
         expedita quibusdam quam voluptate iste ullam! Qui vel natus quos magni
