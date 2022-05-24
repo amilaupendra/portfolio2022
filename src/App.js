@@ -23,7 +23,13 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/works" element={<Works />}></Route>
         </Routes>
+  
         </Router>
+        <Works/>
+
+        <div className="naame">
+          amila adhikari
+        </div>
 
 
       </div>

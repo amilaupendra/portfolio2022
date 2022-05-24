@@ -14,10 +14,10 @@ export default function Topnav() {
               <Link to={"/"}>Home</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to={"/works"}>Works</Link>
+              <Link to={"/about"}>About</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to={"/about"}>About</Link>
+              <Link to={"/works"}>Works</Link>
             </Nav.Link>
           </Nav>
           </Container>

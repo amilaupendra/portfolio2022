@@ -1,6 +1,6 @@
 .homediv{
     background-color: #24262B;
-    height: 750px;
+    height: 100vh;
     padding-top: 70px;
 }
 
@@ -78,3 +78,6 @@
       left: 0;
     }
   }
+
+
+  
