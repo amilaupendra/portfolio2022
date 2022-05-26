@@ -25,13 +25,8 @@ function App() {
         </Routes>
   
         </Router>
+        <About/>
         <Works/>
-
-        <div className="naame">
-          amila adhikari
-        </div>
-
-
       </div>
     
   );
