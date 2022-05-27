@@ -23,12 +23,13 @@
     align-content: center;
 }
 
-ul{
-    padding-left: 0%;
+.detailsul{
+    padding-left: 0 !important;
 }
 
-li{
+.detailsli{
     list-style-type: none;
+    padding-left: 0px;
     margin-top: 20px;
 }
 

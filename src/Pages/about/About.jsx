@@ -15,30 +15,30 @@ export default function About() {
           <br />
           <h6>I like working with new Tools and Technologies.</h6>
           <div>
-            <ul>
-              <li>
+            <ul className="detailsul">
+              <li className="detailsli">
                 {" "}
                 <span className="topic">Name:</span>{" "}
                 <span className="description">Amila Upendra</span>
               </li>
-              <li>
+              <li className="detailsli">
                 {" "}
                 <span className="topic">Degree:</span>{" "}
                 <flex className="description">
                   Bsc(Hons) Computation & Management
                 </flex>
-              </li>
-              <li>
+              </li >
+              <li className="detailsli">
                 {" "}
                 <span className="topic">Email:</span>{" "}
                 <span className="description">Amila Upendra</span>
               </li>
-              <li>
+              <li className="detailsli">
                 {" "}
                 <span className="topic">Phone:</span>{" "}
                 <span className="description">0762386482</span>
               </li>
-              <li>
+              <li className="detailsli">
                 {" "}
                 <span className="topic">Country:</span>{" "}
                 <span className="description">Sri Lanka</span>
