@@ -28,6 +28,14 @@ export default function Home() {
       </div>
 
       </div>
+
+      <div className="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+      </div>
       
     </div>
   );
