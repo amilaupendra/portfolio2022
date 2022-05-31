@@ -1,5 +1,6 @@
 import "./App.css";
 import "./Components/navbar/Topnav";
+import Timeline from "./Pages/experience/Timeline";
 import Topnav from "./Components/navbar/Topnav";
 import {
   BrowserRouter as Router,
@@ -26,7 +27,7 @@ function App() {
   
         </Router>
         <About/>
-        <Works/>
+        <Timeline/>
       </div>
     
   );
