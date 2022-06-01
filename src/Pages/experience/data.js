@@ -1,6 +1,6 @@
 const data =[
     {
-        Text:'wrote my first blog post ever on medium',
+        Text:'wrote my first blog post ever on medium my first item is a short on',
         Date:'March 03 2017',
         category:{
             tag:'medium',
