@@ -1,9 +1,9 @@
 const data =[
     {
-        Text:'wrote my first blog post ever on medium my first item is a short on',
+        Text:'3 years of experince',
         Date:'March 03 2017',
         category:{
-            tag:'medium',
+            tag:'Vertusa',
             color:'#018f69'
         },
         link:{
@@ -12,11 +12,11 @@ const data =[
         }
     },
     {
-        Text:'wrote my first blog post ever on medium',
+        Text:'6 moth associate doftware engineer',
         Date:'March 03 2017',
         category:{
-            tag:'medium',
-            color:'#F8D210'
+            tag:'Random Software',
+            color:'#018f69'
         },
         link:{
             url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
@@ -24,11 +24,11 @@ const data =[
         }
     },
     {
-        Text:'wrote my first blog post ever on medium',
+        Text:'one year asoosciate software engineer',
         Date:'March 03 2017',
         category:{
-            tag:'medium',
-            color:'#FA26A0'
+            tag:'Codegen',
+            color:'#018f69'
         },
         link:{
             url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',

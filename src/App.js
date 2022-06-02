@@ -19,7 +19,7 @@ function App() {
         </Routes>
       </Router>
       <About />
-      <span className="experiencetopic">Experience</span>
+      
       <Timeline />
     </div>
   );
