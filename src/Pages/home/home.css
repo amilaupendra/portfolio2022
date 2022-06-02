@@ -92,8 +92,8 @@
     display: block;
     width: 20px;
     height: 20px;
-    border-bottom: 3px solid yellow;
-    border-right: 3px solid yellow;
+    border-bottom: 5px solid #FFC800;
+    border-right: 5px solid #FFC800;
     margin: 5px;
     transform: rotate(45deg);
     animation: animate 2s infinite;

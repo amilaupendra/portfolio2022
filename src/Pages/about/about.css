@@ -2,13 +2,14 @@
     background-color: 24262B;
     padding-top: 70px;
     height: auto;
-    border-top: 1px solid white ;
+   /* border-top: 1px solid white ;*/
     color: white;
 
 }
 
 .mydetails{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .myimage{

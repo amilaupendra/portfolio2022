@@ -1,6 +1,6 @@
 .experience-container{
     box-sizing: border-box;
-    background-image: linear-gradient(135deg,#f5f7f4 0%, #c2f1d5 100%);
+    background-image: linear-gradient(135deg,#fff 0%, #fff 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .timeline-container::after{
-    background-color: red;
+    background-color: #FF4500;
     content: '';
     position: absolute;
     left: calc(50%);
@@ -102,8 +102,8 @@
     right: 5px;
 }
 
-.timeline-item-content .time{
-    color: red;
+.timeline-item-content time{
+    color: #333;
     font-size: 12px;
 }
 
@@ -127,7 +127,7 @@
 
 .timeline-item-content .circle{
     background-color: #fff;
-    border: 3px solid red;
+    border: 3px solid #FF4500;
     width: 20px;
     border-radius: 50%;
     top: calc(50% - 10px);
@@ -142,5 +142,31 @@
     left: -39px;
 }
 
+@media screen and (max-width:767px) {
+    .timeline-item-content,
+    .timeline-item:nth-child(odd) .timeline-item-content{
+        padding: 15px 10px;
+        text-align: center;
+        align-items: center;
+    }
 
+    .timeline-item-content .tag{
+        width: calc(100% - 10px);
+    }
+
+    .timeline-item-content time{
+        margin-top: 20px;
+    }
+
+    .timeline-item-content a{
+        text-decoration: underline;
+    }
+
+    .timeline-item-content a::after{
+        display: none;
+    }
+
+    
+    
+}
 /*here ended*/

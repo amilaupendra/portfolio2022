@@ -16,7 +16,7 @@ const data =[
         Date:'March 03 2017',
         category:{
             tag:'medium',
-            color:'#018f69'
+            color:'#F8D210'
         },
         link:{
             url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
@@ -28,7 +28,7 @@ const data =[
         Date:'March 03 2017',
         category:{
             tag:'medium',
-            color:'#018f69'
+            color:'#FA26A0'
         },
         link:{
             url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
