@@ -19,8 +19,8 @@ function App() {
         </Routes>
       </Router>
       <About />
-      
       <Timeline />
+      <Works/>
     </div>
   );
 }
