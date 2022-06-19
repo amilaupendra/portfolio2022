@@ -9,17 +9,32 @@ const ReactCardSlider = (props) => {
     {image:'https://picsum.photos/400/300',title:'This is third title',description:'This is a descrition'},
     {image:'https://picsum.photos/600/320',title:'This is fourth title',description:'This is a descrition'},
     {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/200/300',title:'This is sisxth title',description:'This is a descrition'}
+    {image:'https://picsum.photos/200/300',title:'This is sisxth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is sev title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is eight title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is nine title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is ten title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
+    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'}
+
   ];
 
   const slideLeft =()=> {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 800;
+    slider.scrollLeft = slider.scrollLeft - 1190;
   };
 
   const slideRight =()=> {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 800;
+    slider.scrollLeft = slider.scrollLeft + 1190;
   };
 
   return (
