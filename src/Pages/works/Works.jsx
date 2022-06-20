@@ -4,10 +4,9 @@ import ReactCardSlider from "../../Components/cardslider/ReactCardSlider";
 
 export default function Works() {
   return (
-    <div className="container-fluid worksdiv">
+    <div className=" worksdiv">
+      <div id='topicdiv'><span>My Workings</span></div>
       <ReactCardSlider />
-
- 
     </div>
   );
 }

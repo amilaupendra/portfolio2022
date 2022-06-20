@@ -17,6 +17,9 @@ export default function Topnav() {
               <Link to={"/about"}>About</Link>
             </Nav.Link>
             <Nav.Link>
+              <Link to={"/experience"}>Experience</Link>
+            </Nav.Link>
+            <Nav.Link>
               <Link to={"/works"}>Works</Link>
             </Nav.Link>
           </Nav>
