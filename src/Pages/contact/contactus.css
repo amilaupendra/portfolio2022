@@ -1,0 +1,35 @@
+.contactusdiv{
+    display: flexbox;
+    width: 70%;
+    margin: auto;
+}
+
+#contactustopic{
+    color: white;
+    margin-bottom: 30px;
+}
+
+form{
+    margin: auto;
+    background-color: #2F333E;
+
+}
+
+#labelnames{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#inputfields{
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+textarea{
+    width: 80%;
+    height: 200px;
+}
