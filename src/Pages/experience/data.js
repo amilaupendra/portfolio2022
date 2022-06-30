@@ -1,9 +1,9 @@
 const data =[
     {
-        Text:'3 years of experince',
-        Date:'March 03 2017',
+        Text:'Undergraduate',
+        Date:'jan 02 2019',
         category:{
-            tag:'Vertusa',
+            tag:'University of Peradeniya',
             color:'#018f69'
         },
         link:{
@@ -12,10 +12,10 @@ const data =[
         }
     },
     {
-        Text:'6 moth associate doftware engineer',
-        Date:'March 03 2017',
+        Text:'Student at RSLUP',
+        Date:'March 08 2021',
         category:{
-            tag:'Random Software',
+            tag:'Random Software Ltd',
             color:'#018f69'
         },
         link:{
