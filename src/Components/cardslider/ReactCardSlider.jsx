@@ -4,7 +4,7 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const ReactCardSlider = (props) => {
   const slides = [
-    {image:'https://picsum.photos/210/300',title:'This is a title',description:'This is a descrition'},
+    {image:'https://picsum.photos/210/300',title:'This is a titleee',description:'This is a descrition'},
     {image:'https://picsum.photos/600/300',title:'This is second title',description:'This is a descrition'},
     {image:'https://picsum.photos/400/300',title:'This is third title',description:'This is a descrition'},
     {image:'https://picsum.photos/600/320',title:'This is fourth title',description:'This is a descrition'},

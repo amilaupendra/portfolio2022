@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import "./topnav.css";
 
 export default function Topnav() {
@@ -11,16 +12,19 @@ export default function Topnav() {
           <Navbar.Brand  href="#home"> Amila Upendra</Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link>
-              <Link to={"/"}>Home</Link>
+              <Link to="#home">Home</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to={"/about"}>About</Link>
+              <Link to="#about">About</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to={"/experience"}>Experience</Link>
+              <Link to="#experience">Experience</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to={"/works"}>Works</Link>
+              <Link to="#works">Works</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="#contactus">Contact</Link>
             </Nav.Link>
           </Nav>
           </Container>

@@ -4,7 +4,7 @@ import TimelineItem from './TimelineItem';
 import './timeline.css';
 
 const Timeline=()=>  timelineData.length> 0 && (
-    <div className="experience-container">
+    <div id='experience' className="experience-container">
         <span className="experiencetopic">Experience</span>
         <div className="timeline-container">
         {timelineData.map((data,idx)=>(

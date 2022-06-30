@@ -1,11 +1,13 @@
 .navbar-nav a{
+    display: flex;
     color: aqua;
     text-decoration: none;
     text-align: center;
+    margin-right: 10px;
 }
 
 .navbar-nav{
-    width: 350px;
+    width: 420px;
     display: flex;
     justify-content: space-between;
 }

@@ -20,8 +20,8 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="contactusdiv">
-      <h1 id='contactustopic'>Contact Us</h1>
+    <div id='contactus' className="contactusdiv">
+      <h1 id='contactustopic'>Contact</h1>
       <form ref={form} onSubmit={sendEmail}>
       <label id='labelnames'>Name</label>
       <input id='inputfields' type="text" name="user_name" />

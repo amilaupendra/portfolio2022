@@ -3,7 +3,7 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="container aboutdiv">
+    <div id="about" className="container aboutdiv">
       <div className="mydetails">
         <div className="myimagediv col-lg-6  col-md-12 col-12">
           <img className="myimage " src="./images/myphoto.jpeg" alt="myimage" />
@@ -29,7 +29,7 @@ export default function About() {
               <li className="detailsli">
                 {" "}
                 <span className="topic">Email:</span>{" "}
-                <span className="description">Amila Upendra</span>
+                <span className="description">amilaupendra5@gmail.com</span>
               </li>
               <li className="detailsli">
                 {" "}

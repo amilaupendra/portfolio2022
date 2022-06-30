@@ -3,7 +3,7 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <div className="homediv container">
+    <div id="home" className="homediv container">
       <div className="namediv"><h1 id="nameid">Amila Upendra</h1></div>
       <div className="test container">
       <div className="textanimation wrapper container">
