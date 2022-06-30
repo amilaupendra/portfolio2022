@@ -1,12 +1,14 @@
 import React from "react";
 import "./reactcardslider.css";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import htmlimg  from '../../images/html.png';
+import cssimg from '../../images/css.png';
 
 const ReactCardSlider = (props) => {
   const slides = [
-    {image:'https://picsum.photos/210/300',title:'This is a titleee',description:'This is a descrition'},
-    {image:'https://picsum.photos/600/300',title:'This is second title',description:'This is a descrition'},
-    {image:'https://picsum.photos/400/300',title:'This is third title',description:'This is a descrition'},
+    {image: htmlimg,title:'Portfolio',description:'Html+css+js+boostrap'},
+    {image:cssimg,title:'Quiz app',description:'This is a descrition'},
+    {image:'https://picsum.photos/400/300',title:'Portfolio',description:'Html+css+js+boostrap'},
     {image:'https://picsum.photos/600/320',title:'This is fourth title',description:'This is a descrition'},
     {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
     {image:'https://picsum.photos/200/300',title:'This is sisxth title',description:'This is a descrition'},

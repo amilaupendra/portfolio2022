@@ -1,12 +1,13 @@
 import React from "react";
 import "./about.css";
+import myimg from '../../images/myphoto.jpeg';
 
 export default function About() {
   return (
     <div id="about" className="container aboutdiv">
       <div className="mydetails">
         <div className="myimagediv col-lg-6  col-md-12 col-12">
-          <img className="myimage " src="./images/myphoto.jpeg" alt="myimage" />
+          <img className="myimage " src={myimg} alt="myimage" />
         </div>
 
         <div className="detailsdiv col-12 col-md-12 col-lg-6">
