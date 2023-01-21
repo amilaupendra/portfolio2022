@@ -3,7 +3,7 @@ const data =[
         Text:'Undergraduate',
         Date:'jan 02 2019',
         category:{
-            tag:'University of Peradeniya',
+            tag:'Peradeniya',
             color:'#018f69'
         },
         link:{
@@ -12,10 +12,10 @@ const data =[
         }
     },
     {
-        Text:'Student at RSLUP',
+        Text:'Student at Random software ltd',
         Date:'March 08 2021',
         category:{
-            tag:'Random Software Ltd',
+            tag:'Random Software',
             color:'#018f69'
         },
         link:{
@@ -23,54 +23,6 @@ const data =[
             text:'read more'
         }
     },
-    {
-        Text:'one year asoosciate software engineer',
-        Date:'March 03 2017',
-        category:{
-            tag:'Codegen',
-            color:'#018f69'
-        },
-        link:{
-            url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
-            text:'read more'
-        }
-    },
-    {
-        Text:'wrote my first blog post ever on medium',
-        Date:'March 03 2017',
-        category:{
-            tag:'medium',
-            color:'#018f69'
-        },
-        link:{
-            url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
-            text:'read more'
-        }
-    },
-    {
-        Text:'wrote my first blog post ever on medium',
-        Date:'March 03 2017',
-        category:{
-            tag:'medium',
-            color:'#018f69'
-        },
-        link:{
-            url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
-            text:'read more'
-        }
-    },
-    {
-        Text:'wrote my first blog post ever on medium',
-        Date:'March 03 2017',
-        category:{
-            tag:'medium',
-            color:'#018f69'
-        },
-        link:{
-            url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
-            text:'read more'
-        }
-    }
 ]
 
 export default data;
