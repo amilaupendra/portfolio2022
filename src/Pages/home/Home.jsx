@@ -13,7 +13,7 @@ export default function Home() {
             <span>WebDeveloper</span>
           </li>
           <li>
-            <span>GameDeveloper</span>
+            <span>FastLearner</span>
           </li>
           <li>
             <span>Cricketer</span>

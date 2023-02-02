@@ -1,25 +1,49 @@
 const data =[
     {
         Text:'Undergraduate',
-        Date:'jan 02 2019',
+        Date:'January 02 2019',
         category:{
-            tag:'Peradeniya',
+            tag:'Uni of Peradeniya',
             color:'#018f69'
         },
         link:{
-            url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
+            url:'#',
             text:'read more'
         }
     },
     {
-        Text:'Student at Random software ltd',
-        Date:'March 08 2021',
+        Text:'Member',
+        Date:'January 03 2019',
         category:{
-            tag:'Random Software',
+            tag:'Com. Society UOP',
             color:'#018f69'
         },
         link:{
-            url:'https://medium.com/@amilaupendra5/database-database-management-system-sql-mysql-629989ab9daf',
+            url:'#',
+            text:'read more'
+        }
+    },
+    {
+        Text:'Student',
+        Date:'March 08 2021',
+        category:{
+            tag:'Random Software Ltd',
+            color:'#018f69'
+        },
+        link:{
+            url:'#',
+            text:'read more'
+        }
+    },
+    {
+        Text:'Editor At CM Society',
+        Date:'january 01 2022',
+        category:{
+            tag:'CM Society UOP',
+            color:'#018f69'
+        },
+        link:{
+            url:'#',
             text:'read more'
         }
     },

@@ -3,30 +3,14 @@ import "./reactcardslider.css";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import cssimg from '../../images/css.png';
 import lms from '../../images/lms.jpg';
+import shoppingCartImg from '../../images/shopping-cart.webp'
 
 const ReactCardSlider = (props) => {
   const slides = [
     {image:'https://picsum.photos/400/300',title:'ToDo App',description:'Html+css+js used simple app',link:'https://amilaupendra.github.io/Todo-app/'},
     {image: lms,title:'Learning platform',description:'HTML+CSS+JAVASCRIPT Group project',link:'https://amilaupendra.github.io/2021g2r1/'},
-    {image:cssimg,title:'Quiz app',description:'This is a descrition'},
-    {image:'https://picsum.photos/600/320',title:'This is fourth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/200/300',title:'This is sisxth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is sev title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is eight title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is nine title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is ten title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'},
-    {image:'https://picsum.photos/300/300',title:'This is fifth title',description:'This is a descrition'}
-
+    {image:shoppingCartImg,title:'shopping-Cart',description:'React+JS+CSS', link:'https://amilaupendra.github.io/Shopping-Cart/'},
+    {image:cssimg,title:'Quiz app',description:'This is a description'},
   ];
 
   const slideLeft =()=> {

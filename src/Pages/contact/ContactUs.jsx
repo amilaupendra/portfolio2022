@@ -19,16 +19,23 @@ export const ContactUs = () => {
       e.target.reset();
   };
 
+
+  /* css inline style for conatact message input*/
+  const textAlign ={
+    textAlign : "left",
+  } 
+
+
   return (
     <div id='contactus' className="contactusdiv">
       <h1 id='contactustopic'>Contact</h1>
       <form ref={form} onSubmit={sendEmail}>
-      <label id='labelnames'>Name</label>
+      <label id='labelnames'>Enter your name</label>
       <input id='inputfields' type="text" name="user_name" />
-      <label id='labelnames'>Email</label>
+      <label id='labelnames'>Enter your email</label>
       <input id='inputfields' type="email" name="user_email" />
       <label id='labelnames'>Message</label>
-      <textarea id='inputfields' name="message" />
+      <textarea id='inputfields' name="message" placeholder='Hi amila. i am happy to say...' style={textAlign}/>
       <Button variant="warning" type="submit">Send</Button>
     </form>
 
