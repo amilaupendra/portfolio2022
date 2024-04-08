@@ -4,13 +4,15 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import cssimg from '../../images/css.png';
 import lms from '../../images/lms.jpg';
 import shoppingCartImg from '../../images/shopping-cart.webp'
+import emergentlabs from '../../images/emergentlabs.jpeg'
 
 const ReactCardSlider = (props) => {
   const slides = [
+    {image:emergentlabs,title:'Business website', description:'Next JS, tailwind css, AWS lambda, Node js', link:'https://www.emergentlabs.cloud/'},
     {image:'https://picsum.photos/400/300',title:'ToDo App',description:'Html+css+js used simple app',link:'https://amilaupendra.github.io/Todo-app/'},
     {image: lms,title:'Learning platform',description:'HTML+CSS+JAVASCRIPT Group project',link:'https://amilaupendra.github.io/2021g2r1/'},
     {image:shoppingCartImg,title:'shopping-Cart',description:'React+JS+CSS', link:'https://amilaupendra.github.io/Shopping-Cart/'},
-    {image:cssimg,title:'Quiz app',description:'This is a description'},
+    
   ];
 
   const slideLeft =()=> {
