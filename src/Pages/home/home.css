@@ -110,6 +110,21 @@
     animation-delay: -0.4s;
   }
 
+  .links{
+    /* background-color: rgb(245, 245, 245); */
+    width: 100%;
+    margin-top: 400px;
+    color: white;
+    font-size: xx-large;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .profiles{
+    color: white;
+    text-decoration: none;
+  }
+
   @keyframes animate {
     0%{
       opacity: 0;

@@ -1,5 +1,9 @@
 import React from "react";
 import "./home.css";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaFileDownload } from "react-icons/fa";
+import AmilaCv from "../../../src/images/Amila cv.pdf";
 
 export default function Home() {
   return (
@@ -33,9 +37,14 @@ export default function Home() {
         <span></span>
         <span></span>
         <span></span>
-
-
       </div>
+
+      <div className="links">
+      <a href="https://www.linkedin.com/in/amila-upendra-953771207/" className="profiles" ><FaLinkedin /></a>
+      <a href="https://github.com/amilaupendra" className="profiles"><FaGithub /></a>
+      <a href={AmilaCv} download="AmilaCv" target="_blank" className="profiles"><FaFileDownload />Resume</a> 
+      </div>
+      
       
     </div>
   );
