@@ -35,7 +35,7 @@ export const ContactUs = () => {
       <label id='labelnames'>Enter your email</label>
       <input id='inputfields' type="email" name="user_email" />
       <label id='labelnames'>Message</label>
-      <textarea id='inputfields' name="message" placeholder='Hi amila. i am happy to say...' style={textAlign}/>
+      <textarea id='inputfields' name="message" placeholder='Hi amila...' style={textAlign}/>
       <Button variant="warning" type="submit">Send</Button>
     </form>
 

@@ -10,23 +10,23 @@ export default function Home() {
     <div id="home" className="homediv container">
       <div className="namediv"><h1 id="nameid">Amila Upendra</h1></div>
       <div className="test container">
-      <div className="textanimation wrapper container">
-        <div className="static-txt">I'm a</div>
+      <div className="textanimation wrapper">
+        <div className="static-txt"><p>I'm a</p></div>
         <ul className="dynamic-txts">
           <li>
-            <span>WebDeveloper</span>
+            <span>Web Apps Developer</span>
           </li>
           <li>
-            <span>FastLearner</span>
+            <span>Mobile Apps Developer</span>
           </li>
           <li>
-            <span>Cricketer</span>
+            <span>Full-Stack Developer</span>
           </li>
           <li>
-            <span>Gamer</span>
+            <span>BSc Graduate</span>
           </li>
           <li>
-            <span>Student</span>
+            <span>Enthusistic Developer</span>
           </li>
         </ul>
       </div>
