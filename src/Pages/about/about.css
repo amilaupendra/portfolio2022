@@ -38,6 +38,7 @@
     list-style-type: none;
     padding-left: 0px;
     margin-top: 30px;
+    display: flex;
 }
 
 .abouttextdiv{
@@ -56,6 +57,7 @@
 
 .topic{
     display: inline-block;
+    /* margin-right: 2px; */
     width: 120px;
 
 }
@@ -97,4 +99,21 @@
     }
     
 }
+
+
+@media only screen and (max-width: 768px) {
+    .topic{
+        display: flex;
+        width: auto;
+        padding-right: 10%;
+    }
+    .detailsli{
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: 30px;
+        display: flex;
+    }
+
+
+  }
 

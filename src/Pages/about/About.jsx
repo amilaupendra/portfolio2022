@@ -25,7 +25,7 @@ export default function About() {
               <li className="detailsli">
                 {" "}
                 <span className="topic">Degree:</span>{" "}
-                <span className="description">Bsc(Hons) Computation & Management</span>
+                <span className="description">Computation & Management</span>
               </li>
               <li className="detailsli">
                 {" "}

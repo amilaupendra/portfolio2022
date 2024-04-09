@@ -1,7 +1,5 @@
-import React from "react";
 import "./reactcardslider.css";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
-import cssimg from '../../images/css.png';
 import lms from '../../images/lms.jpg';
 import shoppingCartImg from '../../images/shopping-cart.webp'
 import emergentlabs from '../../images/emergentlabs.jpeg'
@@ -16,13 +14,19 @@ const ReactCardSlider = (props) => {
   ];
 
   const slideLeft =()=> {
+    const isMobileView = window.innerWidth <= 768;
+    const scrollAmount = isMobileView ? 300 : 1210;
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 1210;
+    slider.scrollLeft = slider.scrollLeft - scrollAmount;
   };
 
   const slideRight =()=> {
+    const isMobileView = window.innerWidth <= 768;
+    const scrollAmount = isMobileView ? 300 : 1210;
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 1210;
+    slider.scrollLeft = slider.scrollLeft + scrollAmount;
+     
+    
   };
 
   return (
