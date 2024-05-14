@@ -1,7 +1,8 @@
 .homediv{
     background-color: #24262B;
-    height: 100vh;
+    height: auto;
     padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 #nameid{
@@ -153,12 +154,19 @@
     /* background-color: rgb(245, 245, 245); */
     width: 100%;
     margin-top: 300px;
-    color: white;
+    /* color: white; */
     font-size: xx-large;
     justify-content: space-around;
     display: flex;
+    /* background-color: white; */
+    border-radius: 10px;
+
+  top: 0;
   }
 
+  .links a{
+    color: #ff7b00;
+  }
   .profiles{
     color: white;
     text-decoration: none;

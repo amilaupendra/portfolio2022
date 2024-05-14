@@ -30,13 +30,13 @@ export const ContactUs = () => {
     <div id='contactus' className="contactusdiv">
       <h1 id='contactustopic'>Contact</h1>
       <form ref={form} onSubmit={sendEmail}>
-      <label id='labelnames'>Enter your name</label>
-      <input id='inputfields' type="text" name="user_name" />
-      <label id='labelnames'>Enter your email</label>
-      <input id='inputfields' type="email" name="user_email" />
-      <label id='labelnames'>Message</label>
-      <textarea id='inputfields' name="message" placeholder='Hi amila...' style={textAlign}/>
-      <Button variant="warning" type="submit">Send</Button>
+      {/* <label id='labelnames'>Enter your name</label> */}
+      <input className='fornInput' id='inputfields' type="text" placeholder='Name' name="user_name" />
+      {/* <label id='labelnames'>Enter your email</label> */}
+      <input className='fornInput' id='inputfields' type="email" placeholder='Your Email' name="user_email" />
+      {/* <label id='labelnames'>Message</label> */}
+      <textarea className='fornInput' id='inputfields' name="message" placeholder='Write your mail here...' style={textAlign}/>
+      <Button id='sendBtn' variant="warning" type="submit">Send</Button>
     </form>
 
     </div>

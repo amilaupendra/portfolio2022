@@ -40,8 +40,11 @@ export default function Home() {
       </div>
 
       <div className="links">
+        
       <a href="https://www.linkedin.com/in/amila-upendra-953771207/" className="profiles" ><FaLinkedin /></a>
+      
       <a href="https://github.com/amilaupendra" className="profiles"><FaGithub /></a>
+      
       <a href={AmilaCv} download="AmilaCv" target="_blank" className="profiles"><FaFileDownload />Resume</a> 
       </div>
       

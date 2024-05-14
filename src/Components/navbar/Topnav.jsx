@@ -6,7 +6,7 @@ import "./topnav.css";
 export default function Topnav() {
   return (
     <Navbar expand="md" className="bg-body-tertiary navigation">
-      <Container fluid>
+      <Container fluid style={{position:'fixed', backgroundColor:'#24262B',marginTop:'20px', zIndex:'500',padding:'10px'}}>
         <Navbar.Brand  href="#home" style={{color:'white'}}>Amila Upendra</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

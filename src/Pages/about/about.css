@@ -1,9 +1,10 @@
 .aboutdiv{
-    background-color: 24262B;
+    /* background-color: 24262B; */
     padding-top: 70px;
-    height: auto;
+    height: 100vh;
    /* border-top: 1px solid white ;*/
-    color: white;
+    /* color: white; */
+    background-color: white;
 
 }
 
@@ -14,15 +15,15 @@
 
 .myimage{
     padding: 40px;
-    width: 100%;
+    width: 130%;
     height: auto;
-    border-radius: 50%;
-    transition: 0.2s infinite;
+    /* border-radius: 50%; */
+    /* transition: 0.2s infinite; */
 }
 
-.myimage:hover{
+/* .myimage:hover{
     transform: rotate(2deg);
-}
+} */
 
 .detailsdiv{
     padding: 40px;
@@ -52,7 +53,7 @@
 
 .introdiv{
     color: #2E8BC0;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .topic{
@@ -67,6 +68,10 @@
     color: #2E8BC0;
     text-align: left;
 
+}
+
+.aboutdiv h6{
+    line-height: 1.5;
 }
 
 
@@ -86,6 +91,12 @@
         margin-bottom: 60px;
         text-align:start;
 
+    }
+    .aboutdiv{
+        height: auto;
+    }
+    .aboutdiv h6{
+        text-align: justify;
     }
     
 }

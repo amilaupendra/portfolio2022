@@ -1,21 +1,21 @@
 import React from "react";
 import "./about.css";
-import myimg from '../../images/myimg.jpg';
+import myimg from '../../images/myimg.png';
 
 export default function About() {
   return (
-    <div id="about" className="container aboutdiv">
+    <div id="about" className=" aboutdiv">
       <div className="mydetails">
         <div className="myimagediv col-lg-6  col-md-12 col-12">
           <img className="myimage " src={myimg} alt="myimage" />
         </div>
 
         <div className="detailsdiv col-12 col-md-12 col-lg-6">
-          <div className="abouttextdiv">About Me</div>
+          {/* <div className="abouttextdiv">About Me</div> */}
           <div className="introdiv">Software developer</div>
           <br />
-          <h6>I like working with new Tools and Technologies.</h6>
-          <div>
+          <h6>Dynamic and adaptable former trainee turned skilled Software Engineer, specializing in mobile and web development. Proficient in full-stack development, cloud technologies, and problem-solving. Experienced in coding, testing, and debugging. Collaborative team player with a track record of success. BSc in Computation & Management. Former Editor of Computation and Management Society. Proficient in Java, React, AWS, SQL, and more. Holds certifications in AWS and Design Patterns.</h6>
+          {/* <div>
             <ul className="detailsul">
               <li className="detailsli">
                 {" "}
@@ -43,7 +43,7 @@ export default function About() {
                 <span className="description">Sri Lanka</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

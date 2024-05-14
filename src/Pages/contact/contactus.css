@@ -2,16 +2,19 @@
     display: flexbox;
     width: 70%;
     margin: auto;
+    height: 60vh;
 }
 
 #contactustopic{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 30px;
 }
 
 form{
     margin: auto;
-    background-color: #2F333E;
+    background-color: #ffffffbc;
+    padding: 20px;
+    border-radius: 10px;
 
 }
 
@@ -26,10 +29,26 @@ form{
     display: block;
     margin: auto;
     text-align: center;
-    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom: 0.5px solid #565656;
+    /* background: transparent; */
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 5px;
+    
+}
+
+#inputfields:focus{
+    border-bottom: 2px solid #6881ff;
 }
 
 textarea{
     width: 80%;
-    height: 200px;
+    height: 50px;
+    background: white;
+}
+
+#sendBtn{
+    margin-top: 20px;
 }
