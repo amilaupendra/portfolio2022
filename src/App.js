@@ -10,7 +10,7 @@ import { ContactUs } from "./Pages/contact/ContactUs";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <Router>
         <Topnav />
         <Home />
