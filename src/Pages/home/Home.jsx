@@ -45,7 +45,7 @@ export default function Home() {
       
       <a href="https://github.com/amilaupendra" className="profiles"><FaGithub /></a>
       
-      <a href={AmilaCv} download="AmilaCv" target="_blank" className="profiles"><FaFileDownload />Resume</a> 
+      <a href={AmilaCv} download="AmilaCv" className="profiles"><FaFileDownload />Resume</a> 
       </div>
       
       
